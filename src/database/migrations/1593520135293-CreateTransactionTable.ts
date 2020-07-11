@@ -31,7 +31,7 @@ export class CreateTransactionTable1593520135293 implements MigrationInterface {
           },
           {
             name: 'category_id',
-            type: 'varchar',
+            type: 'uuid',
             isNullable: false,
           },
           {
